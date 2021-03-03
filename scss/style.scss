@@ -1,0 +1,20 @@
+//Connecting fonts
+@import url("https://fonts.hlxcdn.com/fonts/fonts.css");
+
+//Main rectification
+.container {
+  max-width: 955px;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+//Connecting scss files
+@import "libs";
+@import "var";
+@import "header";
+@import "bringing";
+@import "assay";
+@import "media";

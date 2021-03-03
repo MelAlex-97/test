@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test</title>
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="header__announcement">
+      <div class="container">
+        <p class="header__announcement-text">We’ve updated our policies. <a class="header__announcement-link"
+            href="#">Learn
+            more</a></p>
+      </div>
+    </div>
+    <div class="header__navigation">
+      <div class="container">
+        <div class="header__inner">
+          <a class="header__logo-link" href="#"><img class="header__logo-img" src="images/logo.png" alt="logo"></a>
+          <nav class="header__menu">
+            <div class="header__btn">
+              <span class="header__btn-item"></span>
+              <span class="header__btn-item"></span>
+              <span class="header__btn-item"></span>
+            </div>
+            <ul class="header__menu-items">
+              <li class="header__menu-item"><a class="header__menu-link" href="#">Population Health</a></li>
+              <li class="header__menu-item"><a class="header__menu-link" href="#">DNA Tests</a></li>
+              <li class="header__menu-item"><a class="header__menu-link" href="#">Register Kit</a></li>
+              <li class="header__menu-item"><a class="header__menu-link" href="#">Sign In</a></li>
+            </ul>
+            <a class="header__basket-link" href="#"><img class="header__basket-img" src="images/cart-icon.svg"
+                alt="basket"></a>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="bringing" id="bringing">
+    <div class="container">
+      <div class="bringing__inner">
+        <h2 class="title brinding__title">Bringing the benefits of multiple assays into one</h2>
+        <div class="bringing__desc desc">Helix’s Exome+® assay has been carefully optimized to provide the benefits of
+          lcWGS,
+          whole exome sequencing, microarrays, and targeted panels — all in one assay.</div>
+        <div class="bringing__headings">
+          <button class="bringing__heading-btn bringing__heading--active" data-title="targeted">Targeted Panels</button>
+          <button class="bringing__heading-btn" data-title="sequencing">Whole Exome Sequencing</button>
+          <button class="bringing__heading-btn" data-title="microarrays">lcWGS and Microarrays</button>
+        </div>
+      </div>
+    </div>
+    <div class="slider-box">
+      <div class="slider-container" data-mobile="false">
+        <div class="swiper-wrapper">
+          <div class="slider__item slider__item--visible" data-section="targeted">
+            <div class="slider__info">
+              <h3 class="slider__title">Targeted Panels</h3>
+              <p class="slider__text">Panels are often used in clinical settings because they’re low cost and provide
+                high quality coverage
+                of specific, pre-defined genomic regions of interest. While useful in certain settings, such assays
+                are limited by their narrow focus.</p>
+              <p class="slider__text">With ≥ 99.5% call rate across ~600 genes relevant
+                to many disease states, the Exome+ assay enables you to run multiple panel-grade analyses with a
+                single sample.</p>
+            </div>
+            <img class="slider__img" src="images/Oval.png" alt="Whole Exome Sequencing">
+          </div>
+          <div class="slider__item" data-section="sequencing">
+            <div class="slider__info">
+              <h3 class="slider__title">Whole Exome Sequencing</h3>
+              <p class="slider__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo doloribus esse ea,
+                dolore amet libero.</p>
+              <p class="slider__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur, temporibus,
+                nemo ad expedita, assumenda eaque iusto deserunt quasi mollitia soluta esse.</p>
+            </div>
+            <img class="slider__img" src="images/Oval2.png" alt="Whole Exome Sequencing">
+          </div>
+          <div class="slider__item" data-section="microarrays">
+            <div class="slider__info">
+              <h3 class="slider__title">lcWGS and Microarrays</h3>
+              <p class="slider__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis perspiciatis
+                id, fugit tempore asperiores est. Quasi, vitae.</p>
+              <p class="slider__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, iusto expedita
+                fugiat odio aut eum possimus excepturi, accusamus nisi assumenda beatae quasi adipisci soluta facere
+                neque tempore saepe cupiditate! Ullam, quia.</p>
+            </div>
+            <img class="slider__img" src="images/Oval3.png" alt="lcWGS and Microarrays">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="swiper-pagination"></div>
+  </section>
+
+  <section class="assay" id="assay">
+    <div class="container">
+      <div class="assay__inner">
+        <h2 class="title assay__title">A future proofed assay</h2>
+        <div class="assay__desc desc">There are several advantages to running panels in the presence of a whole exome,
+          including flexible test design, flexible re-testing, and increased functionality.</div>
+        <div class="assay__accordion">
+          <div class="assay__panel">
+            <div class="assay__panel-heading assay__panel--active">
+              <a class="assay__panel-link">Flexible test design</a>
+            </div>
+            <div class="assay__accordion-box">
+              <img class="assay__accordion-img" src="images/1.png" alt="Assay img">
+              <p class="assay__panel-text">The Exome+ assay provides the flexibility needed to build a comprehensive
+                panel that can be expanded over time. With ~20,000 genes sequenced in each sample, every gene becomes a
+                candidate for inclusion. And, while we have ensured the highest call rates across those genes that are
+                most likely to belong to a panel, the Exome+ assay delivers high call rates for all genes beyond this
+                core set.</p>
+            </div>
+          </div>
+          <div class="assay__panel">
+            <div class="assay__panel-heading">
+              <a class="assay__panel-link">Sequence once, query often</a>
+            </div>
+            <div class="assay__accordion-box">
+              <img class="assay__accordion-img" src="images/2.png" alt="Assay img">
+              <p class="assay__panel-text">The Exome+ assay provides the flexibility needed to build a comprehensive
+                panel that can be expanded over time. With ~20,000 genes sequenced in each sample, every gene becomes a
+                candidate for inclusion. And, while we have ensured the highest call rates across those genes that are
+                most likely to belong to a panel, the Exome+ assay delivers high call rates for all genes beyond this
+                core set.</p>
+            </div>
+          </div>
+          <div class="assay__panel">
+            <div class="assay__panel-heading">
+              <a class="assay__panel-link">Comprehensive PGx</a>
+            </div>
+            <div class="assay__accordion-box">
+              <img class="assay__accordion-img" src="images/3.png" alt="Assay img">
+              <p class="assay__panel-text">The Exome+ assay provides the flexibility needed to build a comprehensive
+                panel that can be expanded over time. With ~20,000 genes sequenced in each sample, every gene becomes a
+                candidate for inclusion. And, while we have ensured the highest call rates across those genes that are
+                most likely to belong to a panel, the Exome+ assay delivers high call rates for all genes beyond this
+                core set.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="js/libs.min.js"></script>
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,73 @@
+//start assay
+.assay {
+  background-color: $white;
+  padding: 61px 0 112px;
+}
+.assay__title {
+  margin-bottom: 15px;
+}
+.assay__desc {
+  max-width: 600px;
+  margin-bottom: 75px;
+}
+.assay__accordion {
+  position: relative;
+}
+.assay__panel {
+  color: $color-text;
+  max-width: 372px;
+  border-bottom: 1px solid #d7d7d7;
+  &:last-child {
+    border-bottom: none;
+  }
+}
+.assay__panel-heading {
+  font: $bold 20px/30px $font-norms;
+  color: $color-heading;
+  padding: 23px 0;
+}
+.assay__panel-link {
+  display: block;
+  width: 100%;
+  position: relative;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.assay__panel-link::after {
+  content: "";
+  position: absolute;
+  background-color: transparent;
+  right: 10px;
+  top: 10px;
+  width: 7px;
+  height: 7px;
+  border-top: 2px solid $color-heading;
+  border-right: 2px solid $color-heading;
+  transform: rotate(135deg);
+  transition: 0.3s;
+}
+.assay__panel--active {
+  color: $color-text;
+}
+.assay__panel--active a::after {
+  transform: rotate(-45deg);
+  top: 14px;
+  border-top: 2px solid $color-title;
+  border-right: 2px solid $color-title;
+}
+.assay__panel-text {
+  font: $normal 16px/26px $font-norms;
+  margin-bottom: 11px;
+}
+.assay__accordion-box {
+  display: none;
+}
+.assay__accordion-img {
+  position: absolute;
+  right: 0;
+  top: 23px;
+  width: 467px;
+  max-height: fit-content;
+  box-shadow: 0px 0px 25px 0px $color-heading;
+}
+//end assay
